@@ -25,10 +25,10 @@ import (
 
 	"reflect"
 
-	"github.com/astaxie/beego/grace"
-	"github.com/astaxie/beego/logs"
-	"github.com/astaxie/beego/toolbox"
-	"github.com/astaxie/beego/utils"
+	"github.com/chaosdiv/beego/grace"
+	"github.com/chaosdiv/beego/logs"
+	"github.com/chaosdiv/beego/toolbox"
+	"github.com/chaosdiv/beego/utils"
 )
 
 // BeeAdminApp is the default adminApp used by admin module.
@@ -44,7 +44,7 @@ var beeAdminApp *adminApp
 //	 	if t.Nanoseconds() < 100 {
 //			return false
 //	 	}
-//	 	if strings.HasPrefix(requestPath, "/astaxie") {
+//	 	if strings.HasPrefix(requestPath, "/chaosdiv") {
 //			return false
 //	 	}
 //	 	return true

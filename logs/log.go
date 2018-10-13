@@ -15,7 +15,7 @@
 // Package logs provide a general log interface
 // Usage:
 //
-// import "github.com/astaxie/beego/logs"
+// import "github.com/chaosdiv/beego/logs"
 //
 //	log := NewLogger(10000)
 //	log.SetLogger("console", "")
@@ -597,6 +597,12 @@ func Alert(f interface{}, v ...interface{}) {
 // Critical logs a message at critical level.
 func Critical(f interface{}, v ...interface{}) {
 	beeLogger.Critical(formatLog(f, v...))
+}
+
+// Fatal logs a message at Fatal level. And Exit.
+func Fatal(f interface{}, v ...interface{}) {
+    beeLogger.Critical(formatLog(f, v...))
+    log.Fatal("Завершение работы")
 }
 
 // Error logs a message at error level.

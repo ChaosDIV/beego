@@ -122,10 +122,10 @@ password = ${GOPATH}
 		}
 
 	}
-	if err = iniconf.Set("name", "astaxie"); err != nil {
+	if err = iniconf.Set("name", "chaosdiv"); err != nil {
 		t.Fatal(err)
 	}
-	if iniconf.String("name") != "astaxie" {
+	if iniconf.String("name") != "chaosdiv" {
 		t.Fatal("get name error")
 	}
 
