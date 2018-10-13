@@ -15,7 +15,7 @@
 package pagination
 
 import (
-	"github.com/chaosdiv/beego/context"
+	"github.com/ChaosDIV/beego/context"
 )
 
 // SetPaginator Instantiates a Paginator and assigns it to context.Input.Data("paginator").

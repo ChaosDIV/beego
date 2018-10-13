@@ -4,7 +4,7 @@ cache is a Go cache manager. It can use many cache adapters. The repo is inspire
 
 ## How to install?
 
-	go get github.com/chaosdiv/beego/cache
+	go get github.com/ChaosDIV/beego/cache
 
 
 ## What adapters are supported?
@@ -17,7 +17,7 @@ As of now this cache support memory, Memcache and Redis.
 First you must import it
 
 	import (
-		"github.com/chaosdiv/beego/cache"
+		"github.com/ChaosDIV/beego/cache"
 	)
 
 Then init a Cache (example with memory adapter)
@@ -26,10 +26,10 @@ Then init a Cache (example with memory adapter)
 
 Use it like this:	
 	
-	bm.Put("chaosdiv", 1, 10 * time.Second)
-	bm.Get("chaosdiv")
-	bm.IsExist("chaosdiv")
-	bm.Delete("chaosdiv")
+	bm.Put("ChaosDIV", 1, 10 * time.Second)
+	bm.Get("ChaosDIV")
+	bm.IsExist("ChaosDIV")
+	bm.Delete("ChaosDIV")
 
 
 ## Memory adapter

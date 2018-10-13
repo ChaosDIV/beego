@@ -17,7 +17,7 @@ package beego
 import (
 	"strings"
 
-	"github.com/chaosdiv/beego/logs"
+	"github.com/ChaosDIV/beego/logs"
 )
 
 // Log levels to control the logging output.

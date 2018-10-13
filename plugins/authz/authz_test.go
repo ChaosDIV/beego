@@ -15,9 +15,9 @@
 package authz
 
 import (
-	"github.com/chaosdiv/beego"
-	"github.com/chaosdiv/beego/context"
-	"github.com/chaosdiv/beego/plugins/auth"
+	"github.com/ChaosDIV/beego"
+	"github.com/ChaosDIV/beego/context"
+	"github.com/ChaosDIV/beego/plugins/auth"
 	"github.com/casbin/casbin"
 	"net/http"
 	"net/http/httptest"

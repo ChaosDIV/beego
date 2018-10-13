@@ -19,9 +19,9 @@
 // package controllers
 //
 // import (
-// 	"github.com/chaosdiv/beego"
-// 	"github.com/chaosdiv/beego/cache"
-// 	"github.com/chaosdiv/beego/utils/captcha"
+// 	"github.com/ChaosDIV/beego"
+// 	"github.com/ChaosDIV/beego/cache"
+// 	"github.com/ChaosDIV/beego/utils/captcha"
 // )
 //
 // var cpt *captcha.Captcha
@@ -66,11 +66,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/chaosdiv/beego"
-	"github.com/chaosdiv/beego/cache"
-	"github.com/chaosdiv/beego/context"
-	"github.com/chaosdiv/beego/logs"
-	"github.com/chaosdiv/beego/utils"
+	"github.com/ChaosDIV/beego"
+	"github.com/ChaosDIV/beego/cache"
+	"github.com/ChaosDIV/beego/context"
+	"github.com/ChaosDIV/beego/logs"
+	"github.com/ChaosDIV/beego/utils"
 )
 
 var (

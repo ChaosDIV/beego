@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/chaosdiv/beego/context"
+	"github.com/ChaosDIV/beego/context"
 )
 
 func TestNamespaceGet(t *testing.T) {

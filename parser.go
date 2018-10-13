@@ -30,16 +30,16 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/chaosdiv/beego/context/param"
-	"github.com/chaosdiv/beego/logs"
-	"github.com/chaosdiv/beego/utils"
+	"github.com/ChaosDIV/beego/context/param"
+	"github.com/ChaosDIV/beego/logs"
+	"github.com/ChaosDIV/beego/utils"
 )
 
 var globalRouterTemplate = `package routers
 
 import (
-	"github.com/chaosdiv/beego"
-	"github.com/chaosdiv/beego/context/param"
+	"github.com/ChaosDIV/beego"
+	"github.com/ChaosDIV/beego/context/param"
 )
 
 func init() {

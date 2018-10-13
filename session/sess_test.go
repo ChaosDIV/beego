@@ -22,7 +22,7 @@ import (
 
 func Test_gob(t *testing.T) {
 	a := make(map[interface{}]interface{})
-	a["username"] = "chaosdiv"
+	a["username"] = "ChaosDIV"
 	a[12] = 234
 	a["user"] = User{"asta", "xie"}
 	b, err := EncodeGob(a)
@@ -36,7 +36,7 @@ func Test_gob(t *testing.T) {
 	if len(c) == 0 {
 		t.Error("decodeGob empty")
 	}
-	if c["username"] != "chaosdiv" {
+	if c["username"] != "ChaosDIV" {
 		t.Error("decode string error")
 	}
 	if c[12] != 234 {
@@ -68,7 +68,7 @@ func TestCookieEncodeDecode(t *testing.T) {
 	}
 	securityName := string(generateRandomKey(20))
 	val := make(map[interface{}]interface{})
-	val["name"] = "chaosdiv"
+	val["name"] = "ChaosDIV"
 	val["gender"] = "male"
 	str, err := encodeCookie(block, hashKey, securityName, val)
 	if err != nil {
@@ -78,7 +78,7 @@ func TestCookieEncodeDecode(t *testing.T) {
 	if err != nil {
 		t.Fatal("decodeCookie", err)
 	}
-	if dst["name"] != "chaosdiv" {
+	if dst["name"] != "ChaosDIV" {
 		t.Fatal("dst get map error")
 	}
 	if dst["gender"] != "male" {

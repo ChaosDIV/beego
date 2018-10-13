@@ -15,8 +15,8 @@
 package testing
 
 import (
-	"github.com/chaosdiv/beego/config"
-	"github.com/chaosdiv/beego/httplib"
+	"github.com/ChaosDIV/beego/config"
+	"github.com/ChaosDIV/beego/httplib"
 )
 
 var port = ""

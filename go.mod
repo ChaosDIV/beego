@@ -1,4 +1,4 @@
-module github.com/chaosdiv/beego
+module github.com/ChaosDIV/beego
 
 require (
 	golang.org/x/crypto v0.0.0-20180723164146-c126467f60eb

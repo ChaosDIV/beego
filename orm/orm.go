@@ -21,7 +21,7 @@
 //
 //	import (
 //		"fmt"
-//		"github.com/chaosdiv/beego/orm"
+//		"github.com/ChaosDIV/beego/orm"
 //		_ "github.com/go-sql-driver/mysql" // import your used driver
 //	)
 //
@@ -41,7 +41,7 @@
 //		// insert
 //		id, err := o.Insert(&user)
 //		// update
-//		user.Name = "chaosdiv"
+//		user.Name = "ChaosDIV"
 //		num, err := o.Update(&user)
 //		// read one
 //		u := User{Id: user.Id}

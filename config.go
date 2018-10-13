@@ -22,11 +22,11 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/chaosdiv/beego/config"
-	"github.com/chaosdiv/beego/context"
-	"github.com/chaosdiv/beego/logs"
-	"github.com/chaosdiv/beego/session"
-	"github.com/chaosdiv/beego/utils"
+	"github.com/ChaosDIV/beego/config"
+	"github.com/ChaosDIV/beego/context"
+	"github.com/ChaosDIV/beego/logs"
+	"github.com/ChaosDIV/beego/session"
+	"github.com/ChaosDIV/beego/utils"
 )
 
 // Config is the main struct for BConfig

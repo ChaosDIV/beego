@@ -1,6 +1,6 @@
 # beego orm
 
-[![Build Status](https://drone.io/github.com/chaosdiv/beego/status.png)](https://drone.io/github.com/chaosdiv/beego/latest)
+[![Build Status](https://drone.io/github.com/ChaosDIV/beego/status.png)](https://drone.io/github.com/ChaosDIV/beego/latest)
 
 A powerful orm framework for go.
 
@@ -27,7 +27,7 @@ more features please read the docs
 
 **Install:**
 
-	go get github.com/chaosdiv/beego/orm
+	go get github.com/ChaosDIV/beego/orm
 
 ## Changelog
 
@@ -45,7 +45,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/chaosdiv/beego/orm"
+	"github.com/ChaosDIV/beego/orm"
 	_ "github.com/go-sql-driver/mysql" // import your used driver
 )
 
@@ -75,7 +75,7 @@ func main() {
 	id, err := o.Insert(&user)
 
 	// update
-	user.Name = "chaosdiv"
+	user.Name = "ChaosDIV"
 	num, err := o.Update(&user)
 
 	// read one

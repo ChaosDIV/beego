@@ -15,10 +15,10 @@
 // Package httplib is used as http.Client
 // Usage:
 //
-// import "github.com/chaosdiv/beego/httplib"
+// import "github.com/ChaosDIV/beego/httplib"
 //
 //	b := httplib.Post("http://beego.me/")
-//	b.Param("username","chaosdiv")
+//	b.Param("username","ChaosDIV")
 //	b.Param("password","123456")
 //	b.PostFile("uploadfile1", "httplib.pdf")
 //	b.PostFile("uploadfile2", "httplib.txt")

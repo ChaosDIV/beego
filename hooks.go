@@ -6,9 +6,9 @@ import (
 	"net/http"
 	"path/filepath"
 
-	"github.com/chaosdiv/beego/context"
-	"github.com/chaosdiv/beego/logs"
-	"github.com/chaosdiv/beego/session"
+	"github.com/ChaosDIV/beego/context"
+	"github.com/ChaosDIV/beego/logs"
+	"github.com/ChaosDIV/beego/session"
 )
 
 //

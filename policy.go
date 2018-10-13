@@ -17,7 +17,7 @@ package beego
 import (
 	"strings"
 
-	"github.com/chaosdiv/beego/context"
+	"github.com/ChaosDIV/beego/context"
 )
 
 // PolicyFunc defines a policy function which is invoked before the controller handler is executed.

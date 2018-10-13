@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/chaosdiv/beego/config"
+	"github.com/ChaosDIV/beego/config"
 )
 
 func TestXML(t *testing.T) {
@@ -116,10 +116,10 @@ func TestXML(t *testing.T) {
 
 	}
 
-	if err = xmlconf.Set("name", "chaosdiv"); err != nil {
+	if err = xmlconf.Set("name", "ChaosDIV"); err != nil {
 		t.Fatal(err)
 	}
-	if xmlconf.String("name") != "chaosdiv" {
+	if xmlconf.String("name") != "ChaosDIV" {
 		t.Fatal("get name error")
 	}
 }

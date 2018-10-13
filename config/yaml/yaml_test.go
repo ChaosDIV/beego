@@ -19,7 +19,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/chaosdiv/beego/config"
+	"github.com/ChaosDIV/beego/config"
 )
 
 func TestYaml(t *testing.T) {
@@ -105,10 +105,10 @@ func TestYaml(t *testing.T) {
 
 	}
 
-	if err = yamlconf.Set("name", "chaosdiv"); err != nil {
+	if err = yamlconf.Set("name", "ChaosDIV"); err != nil {
 		t.Fatal(err)
 	}
-	if yamlconf.String("name") != "chaosdiv" {
+	if yamlconf.String("name") != "ChaosDIV" {
 		t.Fatal("get name error")
 	}
 

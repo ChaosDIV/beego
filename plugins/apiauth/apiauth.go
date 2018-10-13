@@ -16,8 +16,8 @@
 //
 // Simple Usage:
 //	import(
-//		"github.com/chaosdiv/beego"
-//		"github.com/chaosdiv/beego/plugins/apiauth"
+//		"github.com/ChaosDIV/beego"
+//		"github.com/ChaosDIV/beego/plugins/apiauth"
 //	)
 //
 //	func main(){
@@ -65,8 +65,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/chaosdiv/beego"
-	"github.com/chaosdiv/beego/context"
+	"github.com/ChaosDIV/beego"
+	"github.com/ChaosDIV/beego/context"
 )
 
 // AppIDToAppSecret is used to get appsecret throw appid

@@ -25,10 +25,10 @@ import (
 
 	"reflect"
 
-	"github.com/chaosdiv/beego/grace"
-	"github.com/chaosdiv/beego/logs"
-	"github.com/chaosdiv/beego/toolbox"
-	"github.com/chaosdiv/beego/utils"
+	"github.com/ChaosDIV/beego/grace"
+	"github.com/ChaosDIV/beego/logs"
+	"github.com/ChaosDIV/beego/toolbox"
+	"github.com/ChaosDIV/beego/utils"
 )
 
 // BeeAdminApp is the default adminApp used by admin module.
@@ -44,7 +44,7 @@ var beeAdminApp *adminApp
 //	 	if t.Nanoseconds() < 100 {
 //			return false
 //	 	}
-//	 	if strings.HasPrefix(requestPath, "/chaosdiv") {
+//	 	if strings.HasPrefix(requestPath, "/ChaosDIV") {
 //			return false
 //	 	}
 //	 	return true

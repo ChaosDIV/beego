@@ -16,17 +16,17 @@
 // Usage:
 //
 // import(
-//   "github.com/chaosdiv/beego/cache"
+//   "github.com/ChaosDIV/beego/cache"
 // )
 //
 // bm, err := cache.NewCache("memory", `{"interval":60}`)
 //
 // Use it like this:
 //
-//	bm.Put("chaosdiv", 1, 10 * time.Second)
-//	bm.Get("chaosdiv")
-//	bm.IsExist("chaosdiv")
-//	bm.Delete("chaosdiv")
+//	bm.Put("ChaosDIV", 1, 10 * time.Second)
+//	bm.Get("ChaosDIV")
+//	bm.IsExist("ChaosDIV")
+//	bm.Delete("ChaosDIV")
 //
 //  more docs http://beego.me/docs/module/cache.md
 package cache

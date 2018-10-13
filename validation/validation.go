@@ -15,7 +15,7 @@
 // Package validation for validations
 //
 //	import (
-//		"github.com/chaosdiv/beego/validation"
+//		"github.com/ChaosDIV/beego/validation"
 //		"log"
 //	)
 //

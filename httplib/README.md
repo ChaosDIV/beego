@@ -6,7 +6,7 @@ httplib is an libs help you to curl remote url.
 ## GET
 you can use Get to crawl data.
 
-	import "github.com/chaosdiv/beego/httplib"
+	import "github.com/ChaosDIV/beego/httplib"
 	
 	str, err := httplib.Get("http://beego.me/").String()
 	if err != nil {
@@ -18,7 +18,7 @@ you can use Get to crawl data.
 POST data to remote url
 
 	req := httplib.Post("http://beego.me/")
-	req.Param("username","chaosdiv")
+	req.Param("username","ChaosDIV")
 	req.Param("password","123456")
 	str, err := req.String()
 	if err != nil {
@@ -75,7 +75,7 @@ some http request need setcookie. So set it like this:
 
 	cookie := &http.Cookie{}
 	cookie.Name = "username"
-	cookie.Value  = "chaosdiv"
+	cookie.Value  = "ChaosDIV"
 	httplib.Get("http://beego.me/").SetCookie(cookie)
 
 ## Upload file
@@ -83,7 +83,7 @@ some http request need setcookie. So set it like this:
 httplib support mutil file upload, use `req.PostFile()`
 
 	req := httplib.Post("http://beego.me/")
-	req.Param("username","chaosdiv")
+	req.Param("username","ChaosDIV")
 	req.PostFile("uploadfile1", "httplib.pdf")
 	str, err := req.String()
 	if err != nil {
@@ -94,4 +94,4 @@ httplib support mutil file upload, use `req.PostFile()`
 
 See godoc for further documentation and examples.
 
-* [godoc.org/github.com/chaosdiv/beego/httplib](https://godoc.org/github.com/chaosdiv/beego/httplib)
+* [godoc.org/github.com/ChaosDIV/beego/httplib](https://godoc.org/github.com/ChaosDIV/beego/httplib)

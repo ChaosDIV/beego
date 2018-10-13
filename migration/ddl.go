@@ -17,7 +17,7 @@ package migration
 import (
 	"fmt"
 
-	"github.com/chaosdiv/beego"
+	"github.com/ChaosDIV/beego"
 )
 
 // Index struct defines the structure of Index Columns

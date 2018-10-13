@@ -27,54 +27,54 @@ func TestNewBeeMap(t *testing.T) {
 
 func TestSet(t *testing.T) {
 	safeMap = NewBeeMap()
-	if ok := safeMap.Set("chaosdiv", 1); !ok {
+	if ok := safeMap.Set("ChaosDIV", 1); !ok {
 		t.Error("expected", true, "got", false)
 	}
 }
 
 func TestReSet(t *testing.T) {
 	safeMap := NewBeeMap()
-	if ok := safeMap.Set("chaosdiv", 1); !ok {
+	if ok := safeMap.Set("ChaosDIV", 1); !ok {
 		t.Error("expected", true, "got", false)
 	}
 	// set diff value
-	if ok := safeMap.Set("chaosdiv", -1); !ok {
+	if ok := safeMap.Set("ChaosDIV", -1); !ok {
 		t.Error("expected", true, "got", false)
 	}
 
 	// set same value
-	if ok := safeMap.Set("chaosdiv", -1); ok {
+	if ok := safeMap.Set("ChaosDIV", -1); ok {
 		t.Error("expected", false, "got", true)
 	}
 }
 
 func TestCheck(t *testing.T) {
-	if exists := safeMap.Check("chaosdiv"); !exists {
+	if exists := safeMap.Check("ChaosDIV"); !exists {
 		t.Error("expected", true, "got", false)
 	}
 }
 
 func TestGet(t *testing.T) {
-	if val := safeMap.Get("chaosdiv"); val.(int) != 1 {
+	if val := safeMap.Get("ChaosDIV"); val.(int) != 1 {
 		t.Error("expected value", 1, "got", val)
 	}
 }
 
 func TestDelete(t *testing.T) {
-	safeMap.Delete("chaosdiv")
-	if exists := safeMap.Check("chaosdiv"); exists {
+	safeMap.Delete("ChaosDIV")
+	if exists := safeMap.Check("ChaosDIV"); exists {
 		t.Error("expected element to be deleted")
 	}
 }
 
 func TestItems(t *testing.T) {
 	safeMap := NewBeeMap()
-	safeMap.Set("chaosdiv", "hello")
+	safeMap.Set("ChaosDIV", "hello")
 	for k, v := range safeMap.Items() {
 		key := k.(string)
 		value := v.(string)
-		if key != "chaosdiv" {
-			t.Error("expected the key should be chaosdiv")
+		if key != "ChaosDIV" {
+			t.Error("expected the key should be ChaosDIV")
 		}
 		if value != "hello" {
 			t.Error("expected the value should be hello")

@@ -26,11 +26,11 @@ import (
 	"sync"
 	"time"
 
-	beecontext "github.com/chaosdiv/beego/context"
-	"github.com/chaosdiv/beego/context/param"
-	"github.com/chaosdiv/beego/logs"
-	"github.com/chaosdiv/beego/toolbox"
-	"github.com/chaosdiv/beego/utils"
+	beecontext "github.com/ChaosDIV/beego/context"
+	"github.com/ChaosDIV/beego/context/param"
+	"github.com/ChaosDIV/beego/logs"
+	"github.com/ChaosDIV/beego/toolbox"
+	"github.com/ChaosDIV/beego/utils"
 )
 
 // default filter execution points
